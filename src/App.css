@@ -1,0 +1,27 @@
+
+li {
+   list-style: none;
+}
+.task{
+   width:55ch !important
+}  
+body {
+	background: linear-gradient(-55deg,  #ffe3e3,#ffcece);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.taskArea{
+   font-weight: 7px !important;
+}
