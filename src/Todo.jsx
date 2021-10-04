@@ -41,7 +41,7 @@ const Todo = (props) => {
     <>
 
       <ListItem key={props.id} style={{width: "55ch"}}>
-      < IconButton aria-label="delete" className={classes.margin} onClick={(e) => db.collection("todos").doc(props.todo.id).delete()}  >
+      <IconButton aria-label="delete" className={classes.margin} onClick={(e) => db.collection("todos").doc(props.todo.id).delete()}  >
           <DeleteIcon fontSize="small" />
         </IconButton>
         <ListItemAvatar>
